@@ -1,0 +1,74 @@
+{
+  "reference_images": {
+    "product_image": "UPLOADED_IMAGE",
+    "usage_rule": "Use the uploaded image as the strict reference. Preserve the exact ivory-white color, tweed texture, dress construction, belt detail, jacket crop length, neckline, and silhouette. No design changes allowed."
+  },
+
+  "model": {
+    "visibility": "full body visible, head to toe",
+    "pose": "relaxed, confident walking",
+    "face": "same facial identity and proportions as reference",
+    "hair": "natural shoulder-length hair, softly styled",
+    "makeup": "soft editorial makeup, natural tones"
+  },
+
+  "garment": {
+    "type": "tweed mini dress with cropped jacket",
+    "fabric": "luxury tweed",
+    "color": "ivory white (exact match)",
+    "jacket": {
+      "closure": "open front",
+      "fit": "cropped",
+      "length": "exact reference length"
+    },
+    "dress": {
+      "fit": "tailored mini dress",
+      "belt": "decorative belt with jewel buckle, unchanged",
+      "neckline": "exact reference neckline"
+    }
+  },
+
+  "environment": {
+    "location": "Parisian courtyard",
+    "architecture": "ornate historic French building",
+    "lighting": {
+      "type": "natural sunlight",
+      "quality": "warm, cinematic shadows"
+    },
+    "floor": "classic stone pavement"
+  },
+
+  "styling": {
+    "shoes": "light-toned elegant heels",
+    "accessories": [
+      "subtle luxury jewelry"
+    ],
+    "animal": {
+      "type": "white poodle",
+      "leash_and_collar": {
+        "style": "ornamental luxury",
+        "details": "pearls, gemstones, elegant metallic chain"
+      },
+      "pose": "walking beside the model, refined presence"
+    }
+  },
+
+  "photography": {
+    "angle": "eye level",
+    "lens": "35mm",
+    "style": "luxury fashion editorial",
+    "depth_of_field": "shallow",
+    "realism": "ultra realistic"
+  },
+
+  "constraints": {
+    "do_not": [
+      "change color shade",
+      "alter dress cut or length",
+      "modify belt or buckle",
+      "change jacket crop",
+      "alter tweed weave",
+      "add branding or logos"
+    ]
+  }
+}
